@@ -3,7 +3,7 @@ import React from "react";
 export default function Card(props) {
   const { item } = props;
   return (
-    <div style={{ backgroundColor: "#f3f3f3", height: "300px" }}>
+    <div style={{ backgroundColor: "#fff", height: "300px" }}>
       <img
         src={item.productImgUrl}
         style={{
