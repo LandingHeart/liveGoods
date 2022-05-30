@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import AllCategory from "../pages/AllCategory";
 import User from "../pages/User";
 import Cart from "../pages/Cart";
+import Product from "../pages/Product";
 
 export default function AppRouter() {
   return (
@@ -12,6 +13,7 @@ export default function AppRouter() {
       <Route path="/category" element={<AllCategory />}></Route>
       <Route path="/cart" element={<Cart />}></Route>
       <Route path="/settings" element={<User />}></Route>
+      <Route path="/product" element={<Product />}></Route>
     </Routes>
   );
 }

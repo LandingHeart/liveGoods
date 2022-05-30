@@ -7,12 +7,14 @@ import "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD21hrWed4BCOo2OroXjUpz6LHb-vNX1bQ",
-  authDomain: "react-ecom-44f4f.firebaseapp.com",
-  projectId: "react-ecom-44f4f",
-  storageBucket: "react-ecom-44f4f.appspot.com",
-  messagingSenderId: "215401406913",
-  appId: "1:215401406913:web:82820bcdbe8713eff94f40",
+  apiKey: "AIzaSyAejI_3EZ1jvPE7g_ZrtGVFRabSGMwLMZ0",
+  authDomain: "livegoods-78a2f.firebaseapp.com",
+  databaseURL: "https://livegoods-78a2f-default-rtdb.firebaseio.com",
+  projectId: "livegoods-78a2f",
+  storageBucket: "livegoods-78a2f.appspot.com",
+  messagingSenderId: "198172025334",
+  appId: "1:198172025334:web:8fbeb677fca4d931f967d7",
+  measurementId: "G-CSLSNV0N8W",
 };
 
 // Initialize Firebase

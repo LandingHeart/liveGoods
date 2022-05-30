@@ -15,14 +15,7 @@ function MainContent(props) {
     <Card key={index} item={item} />
   ));
 
-  return (
-    <section
-      style={{ marginBottom: "200px" }}
-      className="main-content-container"
-    >
-      {renderItem}
-    </section>
-  );
+  return <section className="main-content-container">{renderItem}</section>;
 }
 
 const mapDispatch = (dispatch) => {
